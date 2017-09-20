@@ -2,8 +2,9 @@
 public class Triangle {
 		
 	public static void main(String[] argument) {
-		  
-		int N=3;
+				  
+		int N;
+		N = Integer.parseInt(argument[0]);
 		
 		for(int i=0; i<2*N+1; i++){
 		
