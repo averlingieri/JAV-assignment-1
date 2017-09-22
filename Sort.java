@@ -19,8 +19,11 @@ public class Sort {
 			}
 		}
 		
-		for (i=0; i < size; i++)
-			System.out.println(values[i]);
+		for (i=0; i < size - 1; i++){
+			System.out.print(values[i] + ", ");
+		}
+		
+		System.out.print(values[size-1]);
 		
 	}
 }
